@@ -7,11 +7,12 @@
   "scripts": {
     "start": "web-dev-server",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=bd0fef028d43"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:hitendreamworld/dw-storybook.git"
+    "url": "git+ssh://git@github.com/hitendreamworld/dw-storybook.git"
   },
   "author": {
     "name": "Hiten Bhayani",
@@ -37,5 +38,11 @@
     "babel-loader": "^8.2.5",
     "chromatic": "^6.9.0",
     "lit-html": "^2.3.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hitendreamworld/dw-storybook/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/hitendreamworld/dw-storybook#readme",
+  "_id": "@dreamworld/dw-storybook@0.0.0-development"
 }

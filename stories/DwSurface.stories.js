@@ -17,5 +17,5 @@ const Template = ({ elevation }) =>
 
 export const Default = Template.bind({});
 Default.args = {
-  elevation: 0,
+  elevation: 2,
 };
