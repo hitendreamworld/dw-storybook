@@ -1,0 +1,41 @@
+{
+  "name": "@dreamworld/dw-storybook",
+  "version": "0.0.0-development",
+  "description": "Storybook demo",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "start": "web-dev-server",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hitendreamworld/dw-storybook.git"
+  },
+  "author": {
+    "name": "Hiten Bhayani",
+    "email": "hiten@hisab.co",
+    "url": "https://github.com/hitendreamworld"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@dreamworld/dw-surface": "^1.7.0",
+    "lit": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@storybook/addon-actions": "^6.5.11",
+    "@storybook/addon-essentials": "^6.5.11",
+    "@storybook/addon-links": "^6.5.11",
+    "@storybook/builder-webpack4": "^6.5.11",
+    "@storybook/manager-webpack4": "^6.5.11",
+    "@storybook/web-components": "^6.5.11",
+    "babel-loader": "^8.2.5",
+    "chromatic": "^6.9.0",
+    "lit-html": "^2.3.1"
+  }
+}
