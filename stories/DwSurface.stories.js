@@ -10,15 +10,22 @@ export default {
       options: [0, 1, 2, 4, 8, 16, 24],
     },
     bg: {
-      control: 'select',
-      options: ["surface", "primary", "secondary", "error"]
-    }
+      control: "select",
+      options: ["surface", "primary", "secondary", "error"],
+    },
   },
 };
 
-const Template = ({ bg="", elevation=0, transparent=false, interactive=false, selected=false, activated=false }) =>
+const Template = ({
+  bg = "",
+  elevation = 0,
+  transparent = false,
+  interactive = false,
+  selected = false,
+  activated = false,
+}) =>
   html`<dw-surface
-    .bg=${bg},
+    .bg="${bg},"
     ?transparent=${transparent}
     ?interactive=${interactive}
     ?selected=${selected}
@@ -34,5 +41,5 @@ Default.args = {
   transparent: false,
   interactive: false,
   selected: false,
-  activated: false
+  activated: false,
 };
