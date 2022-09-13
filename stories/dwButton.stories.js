@@ -33,7 +33,7 @@ Default.args = {
   icon: "",
   raised: false,
   unelevated: false,
-  outlined: false,
+  outlined: true,
   dense: false,
   disabled: false
 };
