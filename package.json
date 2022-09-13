@@ -40,6 +40,9 @@
     "chromatic": "^6.9.0",
     "lit-html": "^2.3.1"
   },
+  "resolutions": {
+    "@material/mwc-ripple": "^0.27.0"
+  },
   "bugs": {
     "url": "https://github.com/hitendreamworld/dw-storybook/issues"
   },
