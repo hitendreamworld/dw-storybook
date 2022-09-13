@@ -31,9 +31,9 @@ export const Default = Template.bind({});
 Default.args = {
   label: "Button",
   icon: "",
-  raised: true,
+  raised: false,
   unelevated: false,
-  outlined: false,
+  outlined: true,
   dense: false,
   disabled: false
 };
