@@ -30,7 +30,7 @@ const Template = ({ bg="", elevation=0, transparent=false, interactive=false, se
 
 export const Default = Template.bind({});
 Default.args = {
-  elevation: 8,
+  elevation: 16,
   transparent: false,
   interactive: false,
   selected: false,
